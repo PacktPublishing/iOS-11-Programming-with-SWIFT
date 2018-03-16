@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jbd-f1-CsV">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Create an Entry-->
+        <scene sceneID="cd1-G4-o50">
+            <objects>
+                <viewController id="jbd-f1-CsV" customClass="CreateEntry" customModule="Journal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ixx-ZQ-UAF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SPR-Hk-8d2">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pya-zN-j3p" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="HuG-3s-0d8">
+                                                <rect key="frame" x="8" y="8" width="359" height="587"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter a title..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hnc-wi-b3W">
+                                                        <rect key="frame" x="0.0" y="0.0" width="359" height="44"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="44" id="I33-iV-fn0"/>
+                                                        </constraints>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Enter a body..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NaI-DO-qvJ">
+                                                        <rect key="frame" x="0.0" y="52" width="359" height="419"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="2YF-nZ-eDU">
+                                                        <rect key="frame" x="0.0" y="479" width="359" height="32"/>
+                                                        <subviews>
+                                                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PIF-TV-cJ5" customClass="ColorView" customModule="Journal" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="32" id="YXI-9C-T8R"/>
+                                                                    <constraint firstAttribute="width" constant="32" id="xWm-pJ-sD1"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7uN-wL-oIf" customClass="ColorView" customModule="Journal" customModuleProvider="target">
+                                                                <rect key="frame" x="54.5" y="0.0" width="32" height="32"/>
+                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="32" id="9cP-v1-jhq"/>
+                                                                    <constraint firstAttribute="width" constant="32" id="a4c-7u-bDG"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aBB-4C-GUR" customClass="ColorView" customModule="Journal" customModuleProvider="target">
+                                                                <rect key="frame" x="109" y="0.0" width="32" height="32"/>
+                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="32" id="89b-Is-c4q"/>
+                                                                    <constraint firstAttribute="width" constant="32" id="Qy0-aV-QB2"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DUE-Oa-rDd" customClass="ColorView" customModule="Journal" customModuleProvider="target">
+                                                                <rect key="frame" x="163.5" y="0.0" width="32" height="32"/>
+                                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="32" id="Seo-bO-f5H"/>
+                                                                    <constraint firstAttribute="height" constant="32" id="jgt-DX-QDX"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <view tag="5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HIV-7k-zgE" customClass="ColorView" customModule="Journal" customModuleProvider="target">
+                                                                <rect key="frame" x="218" y="0.0" width="32" height="32"/>
+                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="32" id="7L0-fy-ddy"/>
+                                                                    <constraint firstAttribute="height" constant="32" id="vXZ-lt-yJB"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <view tag="6" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="crp-9R-sCC" customClass="ColorView" customModule="Journal" customModuleProvider="target">
+                                                                <rect key="frame" x="272.5" y="0.0" width="32" height="32"/>
+                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="32" id="LD9-QZ-2Wl"/>
+                                                                    <constraint firstAttribute="height" constant="32" id="dFA-ie-c51"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <view tag="7" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ng7-qH-7gj" customClass="ColorView" customModule="Journal" customModuleProvider="target">
+                                                                <rect key="frame" x="327" y="0.0" width="32" height="32"/>
+                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="32" id="nmJ-0x-3Pq"/>
+                                                                    <constraint firstAttribute="height" constant="32" id="wPr-uZ-B1S"/>
+                                                                </constraints>
+                                                            </view>
+                                                        </subviews>
+                                                        <edgeInsets key="layoutMargins" top="0.0" left="80" bottom="0.0" right="80"/>
+                                                        <variation key="heightClass=regular-widthClass=compact">
+                                                            <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+                                                        </variation>
+                                                    </stackView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzT-bv-MMg">
+                                                        <rect key="frame" x="0.0" y="519" width="359" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="e5p-gL-fWF"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Add a Tag"/>
+                                                        <connections>
+                                                            <action selector="addTag" destination="jbd-f1-CsV" eventType="touchUpInside" id="AnT-HX-gYV"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rby-tY-IaQ">
+                                                        <rect key="frame" x="0.0" y="557" width="359" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="GFa-a0-VMr"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Save"/>
+                                                        <connections>
+                                                            <action selector="save" destination="jbd-f1-CsV" eventType="touchUpInside" id="faX-un-sTu"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="HuG-3s-0d8" firstAttribute="leading" secondItem="Pya-zN-j3p" secondAttribute="leading" constant="8" id="E1z-LH-4fG"/>
+                                            <constraint firstAttribute="bottom" secondItem="HuG-3s-0d8" secondAttribute="bottom" constant="8" id="cUO-xd-88i"/>
+                                            <constraint firstItem="HuG-3s-0d8" firstAttribute="top" secondItem="Pya-zN-j3p" secondAttribute="top" constant="8" id="fXL-SP-7nM"/>
+                                            <constraint firstAttribute="trailing" secondItem="HuG-3s-0d8" secondAttribute="trailing" constant="8" id="w2u-r9-R6d"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Pya-zN-j3p" firstAttribute="top" secondItem="SPR-Hk-8d2" secondAttribute="top" id="7QC-b6-Biz"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pya-zN-j3p" secondAttribute="trailing" id="ETO-ZX-nub"/>
+                                    <constraint firstAttribute="bottom" secondItem="Pya-zN-j3p" secondAttribute="bottom" id="J3N-Mp-mOi"/>
+                                    <constraint firstItem="Pya-zN-j3p" firstAttribute="leading" secondItem="SPR-Hk-8d2" secondAttribute="leading" id="eB8-jR-HjX"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SPR-Hk-8d2" firstAttribute="leading" secondItem="bid-xt-GwG" secondAttribute="leading" id="Kgk-5D-fwV"/>
+                            <constraint firstItem="bid-xt-GwG" firstAttribute="bottom" secondItem="SPR-Hk-8d2" secondAttribute="bottom" id="LO8-2k-h1K"/>
+                            <constraint firstItem="Pya-zN-j3p" firstAttribute="height" secondItem="SPR-Hk-8d2" secondAttribute="height" id="NxL-VL-hLA"/>
+                            <constraint firstItem="bid-xt-GwG" firstAttribute="trailing" secondItem="SPR-Hk-8d2" secondAttribute="trailing" id="WdC-OM-F9A"/>
+                            <constraint firstItem="Pya-zN-j3p" firstAttribute="width" secondItem="SPR-Hk-8d2" secondAttribute="width" id="mhc-pQ-p6g"/>
+                            <constraint firstItem="SPR-Hk-8d2" firstAttribute="top" secondItem="bid-xt-GwG" secondAttribute="top" id="yrz-TR-W2d"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bid-xt-GwG"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Create an Entry" id="BUc-hy-yA3"/>
+                    <connections>
+                        <outlet property="addTagButton" destination="tzT-bv-MMg" id="wP4-gs-WMC"/>
+                        <outlet property="bodyTextView" destination="NaI-DO-qvJ" id="s7Y-Pj-8hB"/>
+                        <outlet property="scrollView" destination="SPR-Hk-8d2" id="6Fq-r8-UdZ"/>
+                        <outlet property="titleTextField" destination="hnc-wi-b3W" id="Lqn-U1-MjZ"/>
+                        <outletCollection property="colorViews" destination="PIF-TV-cJ5" collectionClass="NSMutableArray" id="IpT-7T-LQV"/>
+                        <outletCollection property="colorViews" destination="7uN-wL-oIf" collectionClass="NSMutableArray" id="SOh-Qd-xb3"/>
+                        <outletCollection property="colorViews" destination="aBB-4C-GUR" collectionClass="NSMutableArray" id="bH4-bL-BV5"/>
+                        <outletCollection property="colorViews" destination="DUE-Oa-rDd" collectionClass="NSMutableArray" id="aAk-a1-rEG"/>
+                        <outletCollection property="colorViews" destination="HIV-7k-zgE" collectionClass="NSMutableArray" id="bto-8Q-geO"/>
+                        <outletCollection property="colorViews" destination="crp-9R-sCC" collectionClass="NSMutableArray" id="qLv-lo-YjN"/>
+                        <outletCollection property="colorViews" destination="ng7-qH-7gj" collectionClass="NSMutableArray" id="3T1-uK-VrG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MJ4-9T-r5s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="496.80000000000001" y="127.28635682158921"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="15g-Da-4Ju">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uAj-y2-XcN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2ND-94-VYv">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jbd-f1-CsV" kind="relationship" relationship="rootViewController" id="vvl-xv-I8p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p2C-ZG-g81" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-284" y="127"/>
+        </scene>
+    </scenes>
+</document>
