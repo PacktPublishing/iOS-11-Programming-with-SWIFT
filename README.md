@@ -5,7 +5,7 @@ You want to build iOS applications for the iPhone and iPad, but where do you sta
 
 
 
-##What You Will Learn
+## What You Will Learn <br/>
 ● Implement SiriKit's new Notes Domain 
 ● Handle new UI considerations in iOS 11 and on the all-new iPhone X, such as large titles 
 ● Apply Drag and Drop to your application for use on both the iPad and iPhone 
@@ -19,7 +19,7 @@ You want to build iOS applications for the iPhone and iPad, but where do you sta
 ## Instructions and Navigation
 ### Assumed Knowledge
 To fully benefit from the coverage included in this course, you will need:<br/>
-To fully benefit from the coverage included in this course, you will need:
+
 
 ● Prior knowledge of the Swift Programming Language.
 
