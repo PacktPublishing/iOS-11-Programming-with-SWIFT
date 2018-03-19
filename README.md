@@ -6,15 +6,15 @@ You want to build iOS applications for the iPhone and iPad, but where do you sta
 
 
 ## What You Will Learn <br/>
-● Implement SiriKit's new Notes Domain 
-● Handle new UI considerations in iOS 11 and on the all-new iPhone X, such as large titles 
-● Apply Drag and Drop to your application for use on both the iPad and iPhone 
-● Demonstrate the NSItemProvider reading and writing protocol in your app's Data Model 
-● Practice and master all UITableView operations 
-● Take advantage of Natural Language Processing to improve your app's user experience 
-● Carry out parsing parts of speech, lemmatization, and named entity recognition 
-● Get an overview of the NSLinguisticTagger class 
-● Utilize named entity recognition in your apps 
+● Implement SiriKit's new Notes Domain <br/>
+● Handle new UI considerations in iOS 11 and on the all-new iPhone X, such as large titles <br/>
+● Apply Drag and Drop to your application for use on both the iPad and iPhone <br/>
+● Demonstrate the NSItemProvider reading and writing protocol in your app's Data Model <br/>
+● Practice and master all UITableView operations <br/>
+● Take advantage of Natural Language Processing to improve your app's user experience <br/>
+● Carry out parsing parts of speech, lemmatization, and named entity recognition <br/>
+● Get an overview of the NSLinguisticTagger class <br/>
+● Utilize named entity recognition in your apps <br/>
 
 ## Instructions and Navigation
 ### Assumed Knowledge
