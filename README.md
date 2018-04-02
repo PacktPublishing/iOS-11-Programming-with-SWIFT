@@ -26,11 +26,13 @@ To fully benefit from the coverage included in this course, you will need:<br/>
 This course has the following software requirements:<br/>
 
 ● Xcode 9.x is recommended
+
 ● An iOS Device to run your app on is highly recommended
 
 ● An Apple’s Developer’s Account is required if you are looking to publish to the App Store.
 
 This course has been tested on the following system configuration:
+
 ● OS: macOS 10.12 Sierra
 
 ● Processor: 2.9 Ghz Intel Core i7
