@@ -6,20 +6,17 @@ You want to build iOS applications for the iPhone and iPad, but where do you sta
 
 
 ## What You Will Learn <br/>
-● Implement SiriKit's new Notes Domain <br/>
-● Handle new UI considerations in iOS 11 and on the all-new iPhone X, such as large titles <br/>
-● Apply Drag and Drop to your application for use on both the iPad and iPhone <br/>
-● Demonstrate the NSItemProvider reading and writing protocol in your app's Data Model <br/>
-● Practice and master all UITableView operations <br/>
-● Take advantage of Natural Language Processing to improve your app's user experience <br/>
-● Carry out parsing parts of speech, lemmatization, and named entity recognition <br/>
-● Get an overview of the NSLinguisticTagger class <br/>
-● Utilize named entity recognition in your apps <br/>
+● Prepare your environment for iOS 11 development <br/>
+● Understand the fundamentals of programming with the Swift 4 programming language <br/>
+● Integrate with iOS and improve the user experience with app extensions <br/>
+● Implement a dynamic and interactive interface in an iOS app <br/>
+● Build your own custom UIViews through code or the interface builder <br/>
+● Improve UI and UITableView in your apps <br/>
+● Build additional layers and behaviors into your applications for custom actions <br/>
 
 ## Instructions and Navigation
 ### Assumed Knowledge
 To fully benefit from the coverage included in this course, you will need:<br/>
-
 
 ● Prior knowledge of the Swift Programming Language.
 
@@ -27,7 +24,7 @@ To fully benefit from the coverage included in this course, you will need:<br/>
 
 ### Technical Requirements
 This course has the following software requirements:<br/>
-This course has the following requirements:
+
 ● Xcode 9.x is recommended
 ● An iOS Device to run your app on is highly recommended
 
