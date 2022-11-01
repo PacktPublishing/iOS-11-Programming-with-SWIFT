@@ -51,7 +51,3 @@ This course has been tested on the following system configuration:
 
 * [A Quick Guide to iOS 11's New Features [Video]](https://www.packtpub.com/application-development/quick-guide-ios-11s-new-features-video?utm_source=github&utm_medium=repository&utm_campaign=9781788832878)
 
-### Download a free PDF
-
- <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
-<p align="center"> <a href="https://packt.link/free-ebook/9781788393263">https://packt.link/free-ebook/9781788393263 </a> </p>
